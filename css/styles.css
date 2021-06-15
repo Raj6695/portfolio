@@ -1,0 +1,265 @@
+html{
+  scroll-behavior: smooth;
+}
+
+#title {
+background-image: url(../images/wood.png);
+
+   font-family: "Montserrat";
+  z-index: 3;
+  margin-bottom: 5px;
+}
+
+
+
+.head1 {
+  font-size: 2.5em;
+  line-height: 1.5;
+  color: #f8f5f1;
+  padding-top: 20px;
+  text-align: center;
+}
+.para1{
+  font-size: 2em;
+  line-height: 1.5em;
+  color: #f8f5f1;
+  padding-top: 17px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: center;
+font-family: 'Viaoda Libre', cursive;
+
+
+}
+.container {
+  padding: 3% 3% 3% 3%;
+}
+
+.a {
+  width: 150%;
+  position: inherit;
+  transform: rotate(30deg);
+  left: 250px;
+}
+
+.navbar {
+  padding-bottom:2rem;
+}
+
+.nav-item {
+  padding: 15px;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-family: 'Viaoda Libre', cursive;
+  ;
+  font-weight: bold;
+}
+.nav-link{
+  font-family: Ubuntu;
+  letter-spacing: 2px
+}
+
+.navbutton {
+  margin: 20px;
+  font-family: Ubuntu;
+}
+
+/*-----------fraeures-----------*/
+.title-image {
+  position: absolute;
+  z-index: 1;
+  top: 200px;
+}
+
+h3 {}
+
+#features {
+  padding: 7% ;
+  background-color: #5E454B;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+
+}
+
+.textal {
+    text-align: center;
+    padding-top:15px;
+
+
+
+}
+
+.textal1 {
+    text-align: left;
+    padding-top:15px;
+
+}
+
+.textal2 {
+    text-align: center;
+    padding-top:70px;
+    letter-spacing: 5px;
+
+}
+.feature-box {
+  text-align: center;
+  padding: 0 5% 0 5%;
+}
+
+.icon {
+  color: #da7f8f;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff8474;
+}
+
+#testimonials {
+  background-color: #321F28;
+  /* background-image: url(../images/wood.jpg); */
+  text-align: center;
+}
+
+.testimonial-headlines {
+font-family: Ubuntu;
+  font-size: 1.5em;
+  color:#f8f5f1;
+  letter-spacing: 1.5px;
+
+}
+
+.carousel-item {
+  padding: 5% 14% 3% 14%;
+
+}
+.caro{
+  color: #f8f5f1;
+  font-family: Ubuntu;
+  letter-spacing: 2px
+}
+
+.testimonial-image {
+  width: 100px;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+#press {
+  background-color: #ff8474;
+  padding: 3% 3%;
+  text-align: center;
+}
+
+.press-image {
+  margin: 20px;
+  width: 200px;
+}
+
+#Technicalskills {
+  margin: 60px;
+  text-align: center;
+
+
+
+}
+
+h2 {
+  font-family: 'Ubuntu';
+  text-align: center;
+  font-size: 2.5em;
+  color: #f8f5f1;
+
+}
+
+.allapp{
+
+/* margin: 10% */
+
+
+}
+.card-body {
+  padding: 3%;
+  margin: 20px;
+}
+
+.card-button{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.cards{
+  background-color: #FFEEDB
+}
+
+.tweak-mastiff {
+  margin-bottom: 25px;
+}
+
+.cart-body1 {
+  padding: 3% 4%;
+}
+
+/*cta*/
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 30px;
+  margin: 5px
+}
+
+.cta-h3 {
+  font-size: 3rem;
+  color: #f8f5f1;
+  padding: 4% 30%;
+}
+
+.cta-btn {
+  margin: 1%;
+}
+
+#footer {
+  text-align: center;
+  padding: 4%;
+}
+
+.footer-icons {
+  padding: 2%;
+}
+
+.footer {
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+   .a,.title-image {
+
+    transform: rotate(0deg);
+    width: 50%;
+    position: relative;
+    bottom: 200px;
+    right: 200px;
+  }
+
+  .head1 {
+    font-size: 2rem;
+  }
+
+  .testimonial-headlines {
+    font-size: 2rem;
+  }
+
+  .press-image {
+    width: 100px;
+  }
+}
