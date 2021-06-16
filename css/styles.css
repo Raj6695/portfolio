@@ -4,13 +4,20 @@ html{
 
 #title {
 background-image: url(../images/wood.png);
+    font-family: "Montserrat";
 
-   font-family: "Montserrat";
   z-index: 3;
-  margin-bottom: 5px;
+  margin-bottom:5px;
+
 }
 
+.azure{
+  width: 3rem
+}
+.fab {
+  font-family: 'Orbitron', sans-serif;
 
+}
 
 .head1 {
   font-size: 2.5em;
@@ -18,18 +25,27 @@ background-image: url(../images/wood.png);
   color: #f8f5f1;
   padding-top: 20px;
   text-align: center;
+  color:#343A40;
 }
 .para1{
-  font-size: 2em;
-  line-height: 1.5em;
-  color: #f8f5f1;
+  font-size: 1.5em;
+
+  line-height: 2em;
+  letter-spacing: 2px;
+  text-rendering: optimizeSpeed;
+  word-spacing: 20px;
   padding-top: 17px;
   padding-left: 150px;
   padding-right: 150px;
   text-align: center;
-font-family: 'Viaoda Libre', cursive;
-
-
+  font-family: 'Unica One', cursive;
+text-align: center;
+color:#343A40;
+letter-spacing: 1px;
+ text-transform: uppercase
+}
+.navcolor{
+  color:#343A40;
 }
 .container {
   padding: 3% 3% 3% 3%;
@@ -48,23 +64,49 @@ font-family: 'Viaoda Libre', cursive;
 
 .nav-item {
   padding: 15px;
+  color:#343A40;
+  transition: transform .2s;
 }
+.nav-item:hover {
+  transform: scale(1.2);
 
+}
 .navbar-brand {
-  font-size: 40px;
-  font-family: 'Viaoda Libre', cursive;
-  ;
+  font-size: 3rem;
+  font-family: 'Orbitron', sans-serif;
+
+
   font-weight: bold;
+  color:#343A40;
+
 }
 .nav-link{
   font-family: Ubuntu;
-  letter-spacing: 2px
+  letter-spacing: 2px;
+  color:#343A40;
 }
 
 .navbutton {
   margin: 20px;
   font-family: Ubuntu;
 }
+
+
+.calus{
+  background: linear-gradient(
+hsl(0, 0%, 0% / 0.5),
+hsl(20, 0%, 0% / 0.5) 20%
+    );
+}
+
+.shadow {
+  /* box-shadow:         6px 6px 6px 6px #ccc; */
+border-radius: 10px;
+box-shadow: 2px 2px 2px 2px black;
+background-color: white;
+padding: 1rem
+}
+
 
 /*-----------fraeures-----------*/
 .title-image {
@@ -73,15 +115,15 @@ font-family: 'Viaoda Libre', cursive;
   top: 200px;
 }
 
-h3 {}
+
 
 #features {
   padding: 7% ;
-  background-color: #5E454B;
+  background-color: white;
   position: relative;
   z-index: 3;
   text-align: center;
-  color: white;
+  color:#343A40;
   letter-spacing: 1px;
   margin-bottom: 5px;
 
@@ -90,14 +132,18 @@ h3 {}
 .textal {
     text-align: center;
     padding-top:15px;
-
-
+font-family: Ubuntu;
+line-height: 2em;
+word-spacing: 5px;
 
 }
 
 .textal1 {
-    text-align: left;
+    text-align: center;
     padding-top:15px;
+    line-height: 2em;
+  word-spacing: 5px;
+font-family: Ubuntu;
 
 }
 
@@ -122,29 +168,48 @@ h3 {}
 }
 
 #testimonials {
-  background-color: #321F28;
+  background-color: #da7f8f;
   /* background-image: url(../images/wood.jpg); */
   text-align: center;
 }
 
-.testimonial-headlines {
-font-family: Ubuntu;
-  font-size: 1.5em;
-  color:#f8f5f1;
-  letter-spacing: 1.5px;
+#testimonial-carousel{
+background-color: #343A40;
 
 }
+.testimonial-headlines {
 
+font-family: Ubuntu;
+size:hsla(200, 100%, 100%, 0.5);
+  font-size: 1.5em;
+  color:#343A40;
+  letter-spacing: 1.5px;
+  line-height: 2em;
+word-spacing: 5px;
+ transition: transform 250ms;
+}
+.testimonial-headlines:hover {
+
+
+transform: translateY(-25px);
+}
+.sr-only{
+  color: #343A40;
+}
 .carousel-item {
   padding: 5% 14% 3% 14%;
 
 }
-.caro{
-  color: #f8f5f1;
+.card{
+  color: white;
   font-family: Ubuntu;
-  letter-spacing: 2px
-}
+  font-size: 15px;
+  letter-spacing:1.5px;
 
+}
+.caro{
+  color: white;
+}
 .testimonial-image {
   width: 100px;
   border-radius: 100%;
@@ -152,7 +217,7 @@ font-family: Ubuntu;
 }
 
 #press {
-  background-color: #ff8474;
+  background-color: #f8f5f1;
   padding: 3% 3%;
   text-align: center;
 }
@@ -165,9 +230,6 @@ font-family: Ubuntu;
 #Technicalskills {
   margin: 60px;
   text-align: center;
-
-
-
 }
 
 h2 {
@@ -185,8 +247,8 @@ h2 {
 
 }
 .card-body {
-  padding: 3%;
-  margin: 20px;
+  padding: 1%;
+  margin: 10px;
 }
 
 .card-button{
@@ -195,9 +257,18 @@ h2 {
   align-content: center;
 }
 .cards{
-  background-color: #FFEEDB
-}
+  background-color: #343A40;
 
+  margin: 20px;
+  border-radius: 10px;
+
+   transition: transform 250ms;
+   transition: transform .2s;
+}
+.cards:hover {
+       transform: translateY(-10px);
+        transform: scale(1.1)
+}
 .tweak-mastiff {
   margin-bottom: 25px;
 }
@@ -209,7 +280,7 @@ h2 {
 /*cta*/
 #cta {
   text-align: center;
-  background-color: #ff4c68;
+  background-color: #FF8882;
   padding: 30px;
   margin: 5px
 }
